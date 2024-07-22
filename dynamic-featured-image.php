@@ -1057,7 +1057,7 @@ class Dynamic_Featured_Image {
 }
 
 // Sponsors who support this plugin.
-include 'sponsors.php';
+include_once 'sponsors.php';
 
 /**
  * Instantiate the main class.
