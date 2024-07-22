@@ -125,8 +125,6 @@ class Dynamic_Featured_Image {
         add_filter( 'attachment_fields_to_edit', array( $this, 'media_attachment_custom_fields' ), 10, 2 );
         add_filter( 'attachment_fields_to_save', array( $this, 'media_attachment_custom_fields_save' ), 10, 2 );
 
-        // plugin sponsors.
-        new PluginSponsor();
 
         // get the site protocol.
         $protocol = $this->get_protocol();
